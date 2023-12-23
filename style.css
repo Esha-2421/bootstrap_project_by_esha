@@ -9,11 +9,11 @@ body{
     text-align: center;
 }
 .heading1 img{
-    width:70%;
+    width:50%;
 }
 .heading1 h3{
     color:#D5B455;
-    padding-top:40px;
+    padding-top:20px;
 }
 .heading1 p{
     color:#D5B455;
@@ -22,7 +22,7 @@ body{
     list-style:none;
     margin:0;
     padding:0;
-    padding-top:40px;
+    padding-top:20px;
 }
 .heading1 ul li{
     float:left;
@@ -118,7 +118,7 @@ body{
     padding: 0 0 6px 0;
 }
 .box1 p{
-    font-size:18px;
+    font-size:16px;
     color: #FFF;
     line-height:25px;
     text-align: justify;
@@ -141,7 +141,7 @@ body{
     padding: 0 0 6px 0;
 }
 .box2 p{
-    font-size:18px;
+    font-size:16px;
     color: #FFF;
     line-height:25px;
     text-align: justify;
@@ -164,7 +164,7 @@ body{
     padding: 0 0 6px 0;
 }
 .box3 p{
-    font-size:18px;
+    font-size:16px;
     color: #FFF;
     line-height:25px;
     text-align: justify;
