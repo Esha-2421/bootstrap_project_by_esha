@@ -352,7 +352,6 @@ body{
 .boxes{
     border: dotted rgba(255, 255, 255, 0.37) 1px;
     background: rgba(255, 255, 255, 0.11);
-    min-height: 180px;
     padding:15px 15px 0px 15px;
     margin-bottom: 20px;
     text-align: center;
@@ -416,4 +415,10 @@ body{
 .foot1 a:hover{
     color:#EDD87B;
     transform:translate(10px,0);
+}
+@media screen and (max-width:768px) {
+    .box1,.box2,.box3{
+        width:100%;
+        height:350px;
+    }
 }
