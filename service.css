@@ -125,6 +125,7 @@ body{
     margin:0;
     padding:0;
     line-height:30px;
+    overflow: hidden;
 }
 .box22{background:rgba(213, 180, 85,0.5);
     padding:10px 0;
@@ -179,6 +180,7 @@ body{
     margin:0;
     padding:0;
     line-height:30px;
+    overflow: hidden;
 }
 .footerarea{
     background:black;

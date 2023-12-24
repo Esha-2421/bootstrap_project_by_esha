@@ -122,6 +122,7 @@ body{
     color: #FFF;
     line-height:25px;
     text-align: justify;
+    overflow: hidden;
   }
 .box2{
     background: rgba(0, 131, 160, 0.75);
@@ -145,6 +146,7 @@ body{
     color: #FFF;
     line-height:25px;
     text-align: justify;
+    overflow: hidden;
   }
 .box3{
     background: rgba(255, 94, 0, 0.75);
@@ -168,6 +170,7 @@ body{
     color: #FFF;
     line-height:25px;
     text-align: justify;
+    overflow: hidden;
   }
   .decor1{
       text-align: center;
