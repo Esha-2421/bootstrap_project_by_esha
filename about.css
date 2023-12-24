@@ -199,6 +199,20 @@ body{
     color:#EDD87B;
     transform:translate(10px,0);
 }
+.nav-link{
+    color:#D5B455 !important;
+    text-align: left !important;
+    padding:10px 15px !important;
+    font-weight:400;
+}
+.nav-link:hover{
+    color:maroon !important;
+    background:#D5B455 !important;
+}
+.navbar-toggler{
+    border-color:#D5B455 !important;
+    background:rgba(213, 180, 85,0.6)!important;
+}
 @media screen and (max-width:768px){
     .boxes{
         height:450px;
