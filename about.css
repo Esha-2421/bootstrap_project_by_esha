@@ -188,16 +188,22 @@ body{
     color:#EDD87B;
     font-size:22px;
     padding: 3px 0;
+    transition: all 1s;
+}
+.foot1 ul li:hover{
+    color:#EDD87B;
+    transform:translate(10px,0);
 }
 .foot1 a:link,.foot1 a:visited{
     font-size:18px;
     color:#fff;
     text-decoration:none;
-    transition: all 1s;
 }
 .foot1 a:hover{
     color:#EDD87B;
-    transform:translate(10px,0);
+}
+.foot1 .fa{
+    font-weight:200;
 }
 .nav-link{
     color:#D5B455 !important;
