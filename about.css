@@ -199,3 +199,8 @@ body{
     color:#EDD87B;
     transform:translate(10px,0);
 }
+@media screen and (max-width:768px){
+    .boxes{
+        height:450px;
+    }
+}
