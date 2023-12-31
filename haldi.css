@@ -105,35 +105,55 @@ body{
 .photo{
     padding:50px 0;
 }
-.photo1 img{
-    width:100%;
-    height:200px;
+.boxes{
+    box-shadow: 0px 15px 35px rgba(0,0,0,0.5);
+    margin-bottom:20px;
+    border-radius:25px;
+}
+.box img{
+    width: 100%;
+    height:180px;
 }
 .box{
-        position:relative;
-        overflow:hidden;
-        border-radius:25px;
-        box-shadow: 6px 7px 10px 0px rgba(0,0,0,0.66);
+    position: relative;
+    overflow: hidden;
+    border-radius:25px;
 }
-.details{
-        position:absolute;
-        bottom:80px;
-        left:110px;
-        right:110px;
-        display: none;
-}
-.details a:link,.details a:visited{
+.view{
+    position: absolute;
+    left:20px;
+    right:20px;
+    bottom:0;
+    background: rgba(255,255,255,0.6);
     text-align: center;
-    font-size:25px;
-    text-decoration:none;
-    color:white;
+    padding:20px 0;
+    display:none;
 }
-.details a:hover{
+.view a:link, .view a:visited{
     color:maroon;
+    text-decoration: none;
+    font-size:20px;
+    font-weight:bold;
 }
-.box:hover .details{
-            display:block;
-            transition:all 5s;
+.view::before{
+        position: absolute;
+        background: transparent;
+        width: 0;
+        height: 0;
+        content: "";
+        left:0; 
+    }
+.view1::before{
+        border-right: 15px solid transparent;
+        top:70px;
+        border-top: none;
+        border-left: 15px solid transparent;
+        border-top: 15px solid rgba(255,255,255,0.6);
+    }
+.boxes:hover .view{
+    display:block;
+    bottom:16px;
+    transition:all 4s;
 }
 .footerarea{
     background:black;
