@@ -102,6 +102,9 @@ body{
                     text-align:center;
                     font:italic bold 45px monospace;
 }
+.slide img{
+    width:100%;
+}
 .photo{
     padding:50px 0;
 }
@@ -123,11 +126,12 @@ body{
     position: absolute;
     left:20px;
     right:20px;
-    bottom:0;
     background: rgba(255,255,255,0.6);
     text-align: center;
     padding:20px 0;
     display:none;
+    bottom:0;
+    text-align:center;
 }
 .view a:link, .view a:visited{
     color:maroon;
