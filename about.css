@@ -2,6 +2,36 @@ body{
     margin:0;
     padding:0;
 }
+.toparea{
+    background:#D5B455;
+}
+.toparea1{
+    text-align: center;
+}
+.top1,.top2{
+    padding:10px 0px;
+}
+.top1 a:link,.top1 a:visited,.top2 a:link,.top2 a:visited{
+    color:maroon;
+    font-weight:500;
+    text-decoration: none;
+}
+.top3{
+    text-align:center;
+    padding:10px 0;
+}
+.top3 a:link,.top3 a:visited{
+    padding:5px 15px;
+    border-radius:10px;
+    text-decoration: none;
+    background:maroon;
+    color: #fff;
+}
+.top3 a:hover{
+    background: #d5b455;
+    color:maroon;
+    font-weight:500;
+}
 .heading{
     background:black;
 }
@@ -10,6 +40,7 @@ body{
 }
 .heading1 img{
     width:50%;
+    border-radius:100%;
 }
 .heading1 h3{
     color:#D5B455;
@@ -38,6 +69,9 @@ body{
 .heading1 ul li a:hover{
     color:maroon;
     background:#D5B455;
+}
+.dropdown-menu{
+    background: black !important;
 }
 .slide img{
     width:100%;
@@ -68,15 +102,26 @@ body{
                     text-align:center;
                     font:italic bold 45px monospace;
 }
-.intro1{
+.who{
     padding:50px 0;
+    text-align: center
 }
-.intro1 img{
-    width:100%;
-    padding:50px 0;
+.who1 h2{
+	color: rgb(219, 168, 23);
+    font-style:italic;
+    font-size:30px;
+    font-weight:bold;
+    font-family:Georgia;
+	padding:0;
+	margin:0;
+    margin-bottom:30px;
+    word-spacing:10px;
+    letter-spacing:3px;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
 }
-.intro1 p{text-align:justify;
-    font-size:17px;
+.who1 p{
+    font-family:Poppins;
+    font-size:18px;
 }
 .what{
     background:#ECECEC;
@@ -86,11 +131,14 @@ body{
 .what1 h1{
             padding:0;
             margin:0;
-            color:#D5B455;
-            font-size:45px;
-            font-weight:bold;
-            font-family: monospace;
-            font-style:italic;
+            color: rgb(219, 168, 23);
+            font:italic bold 30px georgia;
+            padding:0;
+            margin:0;
+            margin-bottom:30px;
+            word-spacing:10px;
+            letter-spacing:3px;
+            text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
 }
 .what1 p{
             text-align:justify;
@@ -152,9 +200,14 @@ body{
     padding:0;
     margin:0;
     text-align:center;
-    color:#D5B455;
-    font:italic bold 45px monospace;
-    padding-bottom:20px;
+	color: rgb(219, 168, 23);
+	font:italic bold 30px georgia;
+	padding:0;
+	margin:0;
+    margin-bottom:30px;
+    word-spacing:10px;
+    letter-spacing:3px;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
 }
 .staff1 p{
     text-align:justify;

@@ -2,6 +2,36 @@ body{
     margin:0;
     padding:0;
 }
+.toparea{
+    background:#D5B455;
+}
+.toparea1{
+    text-align: center;
+}
+.top1,.top2{
+    padding:10px 0px;
+}
+.top1 a:link,.top1 a:visited,.top2 a:link,.top2 a:visited{
+    color:maroon;
+    font-weight:500;
+    text-decoration: none;
+}
+.top3{
+    text-align:center;
+    padding:10px 0;
+}
+.top3 a:link,.top3 a:visited{
+    padding:5px 15px;
+    border-radius:10px;
+    text-decoration: none;
+    background:maroon;
+    color: #fff;
+}
+.top3 a:hover{
+    background: #d5b455;
+    color:maroon;
+    font-weight:500;
+}
 .heading{
     background:black;
 }
@@ -10,6 +40,7 @@ body{
 }
 .heading1 img{
     width:50%;
+    border-radius:100%;
 }
 .heading1 h3{
     color:#D5B455;
@@ -38,6 +69,9 @@ body{
 .heading1 ul li a:hover{
     color:maroon;
     background:#D5B455;
+}
+.dropdown-menu{
+    background: black !important;
 }
 .form{
     background-size: cover;
