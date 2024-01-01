@@ -2,11 +2,11 @@ body{
     margin:0;
     padding:0;
 }
-.toparea1{
-    text-align: center;
-}
 .toparea{
     background:#D5B455;
+}
+.toparea1{
+    text-align: center;
 }
 .top1,.top2{
     padding:10px 0px;
@@ -40,6 +40,7 @@ body{
 }
 .heading1 img{
     width:50%;
+    border-radius:100%;
 }
 .heading1 h3{
     color:#D5B455;
@@ -101,98 +102,62 @@ body{
                     text-align:center;
                     font:italic bold 45px monospace;
 }
-.plan{
+.slide img{
+    width:100%;
+}
+.photo{
     padding:50px 0;
 }
-.plan1 h2{
-    text-align:center;   
-	color: rgb(219, 168, 23);
-	font:italic bold 30px georgia;
-	padding:0;
-	margin:0;
-    margin-bottom:30px;
-    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+.boxes{
+    box-shadow: 0px 15px 35px rgba(0,0,0,0.5);
+    margin-bottom:20px;
+    border-radius:25px;
 }
-.plan2 p{
+.box img{
+    width: 100%;
+    height:180px;
+}
+.box{
+    position: relative;
+    overflow: hidden;
+    border-radius:25px;
+}
+.view{
+    position: absolute;
+    left:20px;
+    right:20px;
+    background: rgba(255,255,255,0.6);
     text-align: center;
-    font-size:17px;
+    padding:20px 0;
+    display:none;
+    bottom:0;
+    text-align:center;
 }
-.venue{
-    background:url('photos/plan1.webp') no-repeat fixed;
-    background-size:cover;
-    margin-bottom:30px;
-    padding:100px 0;
-}
-.venued{
-    background:url('photos/plan2.webp') no-repeat fixed;
-    background-size:cover;
-    margin-bottom:30px;
-    padding:100px 0;
-}
-.food{
-    background:url('photos/plan3.webp') no-repeat fixed;
-    background-size:cover;
-    margin-bottom:30px;
-    padding:100px 0;
-}
-.communication{
-    background:url('photos/plan4.webp') no-repeat fixed;
-    background-size:cover;
-    margin-bottom:30px;
-    padding:100px 0;
-}
-.entertainment{
-    background:url('photos/plan5.webp') no-repeat fixed;
-    background-size:cover;
-    margin-bottom:30px;
-    padding:100px 0;
-}
-.mehndi{
-    background:url('photos/plan6.webp') no-repeat fixed;
-    background-size:cover;
-    margin-bottom:30px;
-    padding:100px 0;
-}
-.photography{
-    background:url('photos/plan7.webp') no-repeat fixed;
-    background-size:cover;
-    margin-bottom:30px;
-    padding:100px 0;
-}
-.hospitality{
-    background:url('photos/plan8.webp') no-repeat fixed;
-    background-size:cover;
-    margin-bottom:30px;
-    padding:100px 0;
-}
-.entry{
-    background:url('photos/plan9.webp') no-repeat fixed;
-    background-size:cover;
-    margin-bottom:30px;
-    padding:100px 0;
-
-}
-.venue1{
-    padding:30px 0;
-}
-.venue2{
-    background: #ffffffd6;
-    padding:30px 0px;
-}
-.venue2 h3{
-    text-align: center;
+.view a:link, .view a:visited{
     color:maroon;
-    font:normal 600 35px monospace;
-    margin:0;
-    padding:0;
-    text-shadow: -1px 6px 9px rgba(0,0,0,0.4);
-    margin-bottom:15px;
-    letter-spacing:2px;
+    text-decoration: none;
+    font-size:20px;
+    font-weight:bold;
 }
-.venue2 p{
-    text-align: justify;
-    font-size:18px;
-    font-family:poppins;
+.view::before{
+        position: absolute;
+        background: transparent;
+        width: 0;
+        height: 0;
+        content: "";
+        left:0; 
+    }
+.view1::before{
+        border-right: 15px solid transparent;
+        top:70px;
+        border-top: none;
+        border-left: 15px solid transparent;
+        border-top: 15px solid rgba(255,255,255,0.6);
+    }
+.boxes:hover .view{
+    display:block;
+    bottom:16px;
+    transition:all 4s;
 }
 .footerarea{
     background:black;
@@ -252,9 +217,4 @@ body{
 .navbar-toggler{
     border-color:#D5B455 !important;
     background:rgba(213, 180, 85,0.6)!important;
-}
-@media screen and (max-width:768px){
-    .boxes{
-        height:450px;
-    }
 }

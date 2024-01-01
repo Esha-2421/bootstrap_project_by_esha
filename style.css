@@ -128,7 +128,7 @@ body{
     margin-bottom:15px;
 }
 .segment2{
-    background: url('bg2.jpg') no-repeat;
+    background: url('photos/bg2.webp') no-repeat;
     background-attachment: fixed;
     background-size: cover;
     padding:100px 0;
@@ -329,7 +329,7 @@ body{
     margin-bottom:15px;
 }
 .corporate3{
-    background:url('bg14.jpg') no-repeat;
+    background:url('photos/bg14.webp') no-repeat;
     background-size: cover;
     margin:10px 0 30px 0;
     border-radius:20px;
@@ -376,7 +376,7 @@ body{
     margin-bottom:15px;
 }
 .special2{
-    background: url('bg16.jpg') no-repeat;
+    background: url('photos/bg16.webp') no-repeat;
     background-attachment: fixed;
     background-size: cover;
     padding-top:100px;
