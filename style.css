@@ -39,7 +39,7 @@ body{
     text-align: center;
 }
 .heading1 img{
-    width:50%;
+    width:80%;
     border-radius:100%;
 }
 .heading1 h3{
@@ -293,6 +293,9 @@ body{
     height:370px;
     text-align: center;
     margin-bottom:20px;
+    border-radius:20px;
+}
+.boxarea:hover{box-shadow: 3px 10px 124px -48px rgba(0,0,0,0.3);
 }
 .venue4{
     text-align: center;
@@ -301,6 +304,7 @@ body{
     width:100%;
     height:250px;
     border:solid 5px #fff;
+    border-radius:20px 20px 0 0;
 }
 .venue4 h3{
     background: #fff;
@@ -431,31 +435,56 @@ body{
     color:white;
     margin-bottom:20px;
 }
-.foot1 ul{
+.footmenu ul{
     list-style:none;
     margin:0;
     padding:0;
     margin-bottom:20px;
 }
-.foot1 ul li{
+.footmenu ul li{
     color:#EDD87B;
-    font-size:22px;
+    font-size:15px;
     padding: 3px 0;
     transition: all 1s;
 }
-.foot1 ul li:hover{
+.footmenu ul li:hover{
     color:#EDD87B;
     transform:translate(10px,0);
 }
-.foot1 a:link,.foot1 a:visited{
+.footmenu a:link,.footmenu a:visited{
     font-size:18px;
     color:#fff;
     text-decoration:none;
 }
-.foot1 a:hover{
+.footmenu a:hover{
     color:#EDD87B;
 }
-.foot1 .fa{
+.footmenu .fa{
+    font-weight:200;
+}
+.footaddress ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    margin-bottom:20px;
+}
+.footaddress ul li{
+    color:#EDD87B;
+    font-size:22px;
+    padding: 3px 0;
+}
+.footaddress ul li:hover{
+    color:#EDD87B;
+}
+.footaddress a:link,.footaddress a:visited{
+    font-size:18px;
+    color:#fff;
+    text-decoration:none;
+}
+.footaddress a:hover{
+    color:#EDD87B;
+}
+.footaddress .fa{
     font-weight:200;
 }
 .nav-link{
