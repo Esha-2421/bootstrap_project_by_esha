@@ -153,7 +153,7 @@ body{
 .box1 p{
     text-align:justify;
     color:maroon;
-    font:normal 300 18px arial;
+    font:normal 300 18px poppins;
     margin:0;
     padding:0;
     line-height:30px;
@@ -205,7 +205,7 @@ body{
 .box11 p{
     text-align:justify;
     color:maroon;
-    font:normal 300 18px arial;
+    font:normal 300 18px poppins;
     margin:0;
     padding:0;
     line-height:30px;
@@ -294,4 +294,9 @@ body{
 .navbar-toggler{
     border-color:#D5B455 !important;
     background:rgba(213, 180, 85,0.6)!important;
+}
+@media screen and (min-width:1000px){
+    .box1,.box11{
+        height:320px;
+    }
 }

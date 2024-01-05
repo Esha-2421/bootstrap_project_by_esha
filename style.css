@@ -367,9 +367,6 @@ body{
     border-radius:50%;
     background-color: #670002;
 }
-.corporate2 img{
-    width:100%;
-}
 .special1{
     text-align: center;
     margin:30px 0;
@@ -509,5 +506,29 @@ body{
 @media screen and (max-width:768px) {
     .parea2 img{
         height:300px;
+    }
+}
+@media screen and (max-width:768px) {
+    .box1{
+        background: rgba(218, 6, 32, 0.75);
+        padding: 15px;
+        border-radius: 15px;
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width:768px) {
+    .box2{
+        background: rgba(0, 131, 160, 0.75);
+        padding: 15px;
+        border-radius: 15px;
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width:768px) {
+    .box3{
+        background: rgba(255, 94, 0, 0.75);
+        padding: 15px;
+        border-radius: 15px;
+        margin-bottom: 15px;
     }
 }

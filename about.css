@@ -127,6 +127,7 @@ body{
     background:#ECECEC;
     background-size:cover;
     padding-top:50px;
+    padding-bottom:50px;
 }
 .what1 h1{
             padding:0;
@@ -296,4 +297,10 @@ body{
 .navbar-toggler{
     border-color:#D5B455 !important;
     background:rgba(213, 180, 85,0.6)!important;
+}
+@media screen and (width:768px){
+    .boxes{
+        height:500px;
+    }
+    
 }
