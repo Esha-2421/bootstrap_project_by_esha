@@ -514,6 +514,7 @@ body{
         padding: 15px;
         border-radius: 15px;
         margin-bottom: 15px;
+        height:300px;
     }
 }
 @media screen and (max-width:768px) {
@@ -522,6 +523,7 @@ body{
         padding: 15px;
         border-radius: 15px;
         margin-bottom: 15px;
+        height:300px;
     }
 }
 @media screen and (max-width:768px) {
@@ -530,5 +532,6 @@ body{
         padding: 15px;
         border-radius: 15px;
         margin-bottom: 15px;
+        height:300px;
     }
 }
