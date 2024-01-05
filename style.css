@@ -508,7 +508,7 @@ body{
         height:300px;
     }
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:1024px) {
     .box1{
         background: rgba(218, 6, 32, 0.75);
         padding: 15px;
@@ -517,7 +517,7 @@ body{
         height:420px;
     }
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:1024px) {
     .box2{
         background: rgba(0, 131, 160, 0.75);
         padding: 15px;
@@ -526,12 +526,39 @@ body{
         height:420px;
     }
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:1024px) {
     .box3{
         background: rgba(255, 94, 0, 0.75);
         padding: 15px;
         border-radius: 15px;
         margin-bottom: 15px;
         height:420px;
+    }
+}
+@media screen and (max-width:450px) {
+    .box1{
+        background: rgba(218, 6, 32, 0.75);
+        padding: 15px;
+        border-radius: 15px;
+        margin-bottom: 15px;
+        height:300px;
+    }
+}
+@media screen and (max-width:450px) {
+    .box2{
+        background: rgba(0, 131, 160, 0.75);
+        padding: 15px;
+        border-radius: 15px;
+        margin-bottom: 15px;
+        height:300px;
+    }
+}
+@media screen and (max-width:450px) {
+    .box3{
+        background: rgba(255, 94, 0, 0.75);
+        padding: 15px;
+        border-radius: 15px;
+        margin-bottom: 15px;
+        height:300px;
     }
 }
