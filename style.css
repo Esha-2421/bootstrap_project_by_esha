@@ -69,6 +69,7 @@ body{
 .heading1 ul li a:hover{
     color:maroon;
     background:#D5B455;
+    border-radius:10px;
 }
 .dropdown-menu{
     background: black !important;
@@ -131,7 +132,7 @@ body{
     margin-bottom:15px;
 }
 .segment2{
-    background: url('photos/bg2.webp') no-repeat;
+    background: url('photos/bg2.webp') no-repeat scroll;
     background-attachment: fixed;
     background-size: cover;
     padding:100px 0;
@@ -380,7 +381,7 @@ body{
     margin-bottom:15px;
 }
 .special2{
-    background: url('photos/bg16.webp') no-repeat;
+    background: url('photos/bg16.webp') no-repeat scroll;
     background-attachment: fixed;
     background-size: cover;
     padding-top:100px;
@@ -509,56 +510,17 @@ body{
     }
 }
 @media screen and (max-width:1024px) {
-    .box1{
-        background: rgba(218, 6, 32, 0.75);
-        padding: 15px;
-        border-radius: 15px;
-        margin-bottom: 15px;
-        height:420px;
-    }
-}
-@media screen and (max-width:1024px) {
-    .box2{
-        background: rgba(0, 131, 160, 0.75);
-        padding: 15px;
-        border-radius: 15px;
-        margin-bottom: 15px;
-        height:420px;
-    }
-}
-@media screen and (max-width:1024px) {
-    .box3{
-        background: rgba(255, 94, 0, 0.75);
-        padding: 15px;
-        border-radius: 15px;
-        margin-bottom: 15px;
+    .box1,.box2,.box3{
         height:420px;
     }
 }
 @media screen and (max-width:450px) {
-    .box1{
-        background: rgba(218, 6, 32, 0.75);
-        padding: 15px;
-        border-radius: 15px;
-        margin-bottom: 15px;
+    .box1,.box2,.box3{
         height:300px;
     }
 }
-@media screen and (max-width:450px) {
-    .box2{
-        background: rgba(0, 131, 160, 0.75);
-        padding: 15px;
-        border-radius: 15px;
-        margin-bottom: 15px;
-        height:300px;
-    }
-}
-@media screen and (max-width:450px) {
-    .box3{
-        background: rgba(255, 94, 0, 0.75);
-        padding: 15px;
-        border-radius: 15px;
-        margin-bottom: 15px;
-        height:300px;
+@media screen and (min-width:768px){
+    .parea1 img{
+        margin-top:80px;
     }
 }

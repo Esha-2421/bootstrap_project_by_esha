@@ -69,6 +69,7 @@ body{
 .heading1 ul li a:hover{
     color:maroon;
     background:#D5B455;
+    border-radius:10px;
 }
 .dropdown-menu{
     background: black !important;
@@ -122,6 +123,7 @@ body{
 .who1 p{
     font-family:Poppins;
     font-size:18px;
+    text-align: justify;
 }
 .what{
     background:#ECECEC;

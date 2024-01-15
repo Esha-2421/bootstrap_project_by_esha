@@ -69,6 +69,7 @@ body{
 .heading1 ul li a:hover{
     color:maroon;
     background:#D5B455;
+    border-radius:10px;
 }
 .dropdown-menu{
     background: black !important;
@@ -295,8 +296,9 @@ body{
     border-color:#D5B455 !important;
     background:rgba(213, 180, 85,0.6)!important;
 }
-@media screen and (min-width:1000px){
+@media screen and (min-width:768px){
     .box1,.box11{
         height:320px;
+        padding:20px;
     }
 }

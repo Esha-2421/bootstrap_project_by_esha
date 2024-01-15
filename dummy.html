@@ -225,3 +225,115 @@ about us
     bottom:0;
     transition:all 4s;
 }
+
+
+
+
+.boxes{
+    box-shadow: 0px 15px 35px rgba(0,0,0,0.5);
+    margin-bottom:20px;
+    border-radius:25px;
+}
+.box{
+    height:200px;
+    background:#C191AB;
+    position:relative;
+    overflow:hidden;
+    border-radius:25px;
+}
+.details{
+        position:absolute;
+        bottom:-100px;
+        width:100%;
+        text-align:center;
+        padding:10px 0;
+        background:linear-gradient(to bottom,transparent,black);
+        color:white;
+        font-weight:bold;
+        height:30%;
+        
+}
+.details a:link, .details a:visited{
+    color:#D5B455;
+    text-decoration: none;
+    font-size:20px;
+    font-weight:bold;
+}
+.box:hover .details{
+            display:block;
+            bottom:0;
+            transition:all 4s;
+}
+
+
+
+
+.photo{
+    padding:50px 0;
+}
+.boxes{
+    box-shadow: 0px 15px 35px rgba(0,0,0,0.5);
+    margin-bottom:20px;
+    border-radius:25px;
+}
+.box img{
+    width: 100%;
+    height:180px;
+}
+.box{
+    position: relative;
+    overflow: hidden;
+    border-radius:25px;
+}
+.view{
+    background: rgba(255,255,255,0.6);
+    position:absolute;
+    bottom:-100px;
+    width:100%;
+    text-align:center;
+    padding:10px 0;
+    color:white;
+    font-weight:bold;
+    height:50%;
+}
+.view1{
+    background: rgb(208,211,212,0.7);
+    position:absolute;
+    bottom:-100px;
+    width:100%;
+    text-align:center;
+    padding:10px 0;
+    font-weight:bold;
+    height:25%;
+}
+.view a:link, .view a:visited{
+    color:maroon;
+    text-decoration: none;
+    font-size:20px;
+    font-weight:bold;
+}
+.view::before{
+        position: absolute;
+        background: transparent;
+        width: 0;
+        height: 0;
+        content: "";
+        left:0; 
+    }
+.view1::before{
+        border-right: 15px solid transparent;
+        top:-14px;
+        border-top:none;
+        border-left:15px solid transparent;
+        border-bottom:15px solid rgb(208,211,212,0.7);
+    }
+.boxes:hover .view{
+    display:block;
+    bottom:0;
+    transition:all 4s;
+}
+.boxes:hover .view1{
+    display:block;
+    bottom:0;
+    transition:all 4s;
+}

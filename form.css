@@ -69,6 +69,7 @@ body{
 .heading1 ul li a:hover{
     color:maroon;
     background:#D5B455;
+    border-radius:10px;
 }
 .dropdown-menu{
     background: black !important;
