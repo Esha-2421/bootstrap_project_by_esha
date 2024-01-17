@@ -275,7 +275,7 @@ body{
 }
 .venue3{
     text-align: center;
-    margin:30px 0 80px 0;
+    margin:30px 0 40px 0;
 }
 .venue3 a:link,.venue3 a:visited{
   color:white;
@@ -295,6 +295,9 @@ body{
     text-align: center;
     margin-bottom:20px;
     border-radius:20px;
+}
+.national{
+    margin-top:20px;
 }
 .boxarea:hover{box-shadow: 3px 10px 124px -48px rgba(0,0,0,0.3);
 }
@@ -323,6 +326,14 @@ body{
   color:maroon;
   text-decoration:none;
   background:rgba(213, 180, 85,0.5);
+}
+.local{
+    background:#ECECEC;
+    border:none;
+    margin-bottom:20px;
+}
+.national{
+    text-align: center;
 }
 .corporate1{
     text-align: center;
