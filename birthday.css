@@ -54,6 +54,7 @@ body{
     margin:0;
     padding:0;
     padding-top:20px;
+    font-size:15px;
 }
 .heading1 ul li{
     float:left;
@@ -243,4 +244,9 @@ body{
 .navbar-toggler{
     border-color:#D5B455 !important;
     background:rgba(213, 180, 85,0.6)!important;
+}
+@media screen and (min-width:768px){
+    .heading1 h3{
+        font-size:20px;
+    }
 }

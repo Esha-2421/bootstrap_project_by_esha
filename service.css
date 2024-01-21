@@ -54,6 +54,7 @@ body{
     margin:0;
     padding:0;
     padding-top:20px;
+    font-size:15px;
 }
 .heading1 ul li{
     float:left;
@@ -300,5 +301,10 @@ body{
     .box1,.box11{
         height:320px;
         padding:20px;
+    }
+}
+@media screen and (min-width:768px){
+    .heading1 h3{
+        font-size:20px;
     }
 }

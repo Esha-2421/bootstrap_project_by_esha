@@ -54,6 +54,7 @@ body{
     margin:0;
     padding:0;
     padding-top:20px;
+    font-size:15px;
 }
 .heading1 ul li{
     float:left;
@@ -496,6 +497,9 @@ body{
 .footaddress .fa{
     font-weight:200;
 }
+.map{
+    width:100%;
+}
 .nav-link{
     color:#D5B455 !important;
     text-align: left !important;
@@ -530,15 +534,13 @@ body{
         height:300px;
     }
 }
-@media screen and (min-width:768px){
+@media screen and (max-width:768px){
     .parea1 img{
-        margin-top:80px;
+        margin-top:150px;
     }
 }
-@media screen and (min-width:768px) {
-    .foot{
-        
-    flex: 0 0 auto;
-    width: 25%;
+@media screen and (min-width:768px){
+    .heading1 h3{
+        font-size:20px;
     }
 }
