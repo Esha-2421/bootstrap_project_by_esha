@@ -534,11 +534,6 @@ body{
         height:300px;
     }
 }
-@media screen and (max-width:768px){
-    .parea1 img{
-        margin-top:150px;
-    }
-}
 @media screen and (min-width:768px){
     .heading1 h3{
         font-size:20px;
