@@ -125,6 +125,7 @@ body{
     background-size:cover;
     margin-bottom:30px;
     padding:100px 0;
+    opacity:0.5;
 }
 .venued{
     background:url('photos/plan2.webp') no-repeat fixed;
@@ -137,6 +138,7 @@ body{
     background-size:cover;
     margin-bottom:30px;
     padding:100px 0;
+    opacity:0.5;
 }
 .communication{
     background:url('photos/plan4.webp') no-repeat fixed;
@@ -149,6 +151,7 @@ body{
     background-size:cover;
     margin-bottom:30px;
     padding:100px 0;
+    opacity:0.5;
 }
 .mehndi{
     background:url('photos/plan6.webp') no-repeat fixed;
@@ -161,6 +164,7 @@ body{
     background-size:cover;
     margin-bottom:30px;
     padding:100px 0;
+    opacity:0.5;
 }
 .hospitality{
     background:url('photos/plan8.webp') no-repeat fixed;
@@ -173,6 +177,7 @@ body{
     background-size:cover;
     margin-bottom:30px;
     padding:100px 0;
+    opacity:0.5;
 
 }
 .venue1{
