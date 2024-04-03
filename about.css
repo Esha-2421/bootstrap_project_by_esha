@@ -230,13 +230,10 @@ body{
 }
 .foot1 p{
     text-align:justify;
-    font:normal 300 18px arial;
+    font:normal 300  arial;
     line-height:25px;
     color:white;
     margin-bottom:20px;
-}
-.footmenu{
-    text-align: left;
 }
 .footmenu ul{
     list-style:none;
@@ -246,7 +243,6 @@ body{
 }
 .footmenu ul li{
     color:#EDD87B;
-    font-size:15px;
     padding: 3px 0;
     transition: all 1s;
 }
@@ -255,7 +251,6 @@ body{
     transform:translate(10px,0);
 }
 .footmenu a:link,.footmenu a:visited{
-    font-size:18px;
     color:#fff;
     text-decoration:none;
 }
@@ -273,14 +268,12 @@ body{
 }
 .footaddress ul li{
     color:#EDD87B;
-    font-size:22px;
     padding: 3px 0;
 }
 .footaddress ul li:hover{
     color:#EDD87B;
 }
 .footaddress a:link,.footaddress a:visited{
-    font-size:18px;
     color:#fff;
     text-decoration:none;
 }
